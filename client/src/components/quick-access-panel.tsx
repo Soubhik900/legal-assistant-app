@@ -24,7 +24,7 @@ export default function QuickAccessPanel({ onQuickQuery, statistics }: QuickAcce
 
   return (
     <>
-      <Card className="mb-6">
+      <Card className="mb-6 bg-white/80 backdrop-blur-sm border-gray-200/50 shadow-lg">
         <CardHeader>
           <CardTitle className="text-lg font-semibold text-navy font-[Noto_Sans]">Quick Access</CardTitle>
         </CardHeader>
@@ -47,7 +47,7 @@ export default function QuickAccessPanel({ onQuickQuery, statistics }: QuickAcce
       </Card>
 
       {/* Statistics Panel */}
-      <Card>
+      <Card className="bg-white/80 backdrop-blur-sm border-gray-200/50 shadow-lg">
         <CardHeader>
           <CardTitle className="text-lg font-semibold text-navy font-[Noto_Sans]">Service Statistics</CardTitle>
         </CardHeader>

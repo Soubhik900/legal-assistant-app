@@ -49,7 +49,7 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
   ];
 
   return (
-    <Card className="h-[600px] flex flex-col">
+    <Card className="h-[600px] flex flex-col bg-white/90 backdrop-blur-sm border-gray-200/50 shadow-xl">
       {/* Chat Header */}
       <div className="bg-gradient-to-r from-saffron to-orange-600 text-white p-4 rounded-t-lg">
         <div className="flex items-center justify-between">
@@ -85,7 +85,7 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
       </div>
 
       {/* Chat Messages */}
-      <div className="flex-1 p-4 overflow-y-auto space-y-4 bg-gray-50">
+      <div className="flex-1 p-4 overflow-y-auto space-y-4 bg-gradient-to-b from-slate-50/50 to-blue-50/30">
         {messagesLoading ? (
           <div className="animate-pulse space-y-4">
             <div className="flex items-start space-x-3">

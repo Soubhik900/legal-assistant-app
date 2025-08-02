@@ -13,7 +13,7 @@ export default function GovernmentHeader() {
   ];
 
   return (
-    <header className="bg-white shadow-md border-b-4 border-saffron">
+    <header className="bg-white/95 backdrop-blur-sm shadow-md border-b-4 border-saffron">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-4">
