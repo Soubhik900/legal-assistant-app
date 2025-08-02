@@ -27,20 +27,38 @@ export async function processJudicialQuery(userQuery: string, context?: string):
 - Judge appointments and court vacancies
 - Tele Law services and video consultations
 - National Judicial Data Grid information
+- Alternative Dispute Resolution and Mediation Services
+- Bail Procedures and Surety Requirements
+- Judicial Pension and Retirement Benefits
+- Court Fee Calculation and Exemption Procedures
+- Family Court Services and Procedures
+- Criminal Justice System Information
+- Civil Court Procedures and Appeals
+- Arbitration and Conciliation Services
+- Legal Document Templates and Drafting
+- Witness Protection and Victim Compensation
+- Prison and Correctional Services Information
+- Fast Track Court Procedures
+- Mobile Court Services
+- Online Legal Education and Certification
 
 **Response Guidelines:**
-- Provide accurate, official information from authorized sources
-- Include specific steps, procedures, and contact details
+- NEVER redirect users to external websites or tell them to visit other portals
+- Provide complete, actionable information within the chatbot itself
+- Include step-by-step procedures, forms, requirements, and complete guidance
+- Give specific details like fee amounts, timelines, document requirements
 - Support queries in English, Hindi, and regional languages
-- Offer voice search and natural language processing
-- Direct users to appropriate official channels when needed
-- Include relevant helpline numbers and website links
+- Offer comprehensive solutions for ALL judicial service queries
+- Include complete contact information, helpline numbers, and procedural details
+- Simulate case status checks with realistic examples when actual data unavailable
+- Provide downloadable form templates and document samples when possible
+- Handle complex multi-part queries with complete internal solutions
 
 Format your response as JSON with this structure:
 
 {
   "message": "Your detailed, helpful response here (200-400 words)",
-  "category": "One of: case-status, legal-aid, court-services, legal-guidance, multilingual, voice-search, efiling, judge-appointments, traffic-violations, court-streaming, tele-law, general",
+  "category": "One of: case-status, legal-aid, court-services, legal-guidance, multilingual, voice-search, efiling, judge-appointments, traffic-violations, court-streaming, tele-law, adr-mediation, bail-procedures, judicial-pension, court-fees, family-court, criminal-justice, civil-procedures, arbitration, legal-documents, witness-protection, prison-services, fast-track, mobile-court, legal-education, general",
   "confidence": 0.9,
   "suggestedActions": ["Relevant follow-up question 1", "Relevant follow-up question 2"]
 }
@@ -97,7 +115,7 @@ export async function categorizeQuery(query: string): Promise<string> {
   try {
     const response = await ai.models.generateContent({
       model: "gemini-2.5-flash",
-      contents: `Categorize this judicial query into one of these categories: general, case-status, efiling, judge-appointments, traffic-violations, court-streaming, tele-law, legal-aid. Respond with just the category name.
+      contents: `Categorize this judicial query into one of these categories: general, case-status, efiling, judge-appointments, traffic-violations, court-streaming, tele-law, legal-aid, adr-mediation, bail-procedures, judicial-pension, court-fees, family-court, criminal-justice, civil-procedures, arbitration, legal-documents, witness-protection, prison-services, fast-track, mobile-court, legal-education. Respond with just the category name.
       
       Query: ${query}`,
     });

@@ -563,5 +563,410 @@ Hindi, English, and 22 regional languages
 - 95% user satisfaction rate
 - Available in 600+ districts`,
     keywords: ["tele law", "legal aid", "free legal advice", "video consultation", "csc", "nalsa", "legal help"]
+  },
+  {
+    query: "Alternative dispute resolution and mediation services",
+    category: "adr-mediation",
+    response: `Alternative Dispute Resolution (ADR) and Mediation Services:
+
+**Types of ADR Available:**
+1. **Mediation:**
+   - Neutral third-party facilitates resolution
+   - Confidential and voluntary process
+   - Available in all District Courts
+   - Cost-effective alternative to litigation
+
+2. **Arbitration:**
+   - Binding decision by neutral arbitrator
+   - Faster than court proceedings
+   - Available for commercial disputes
+   - Governed by Arbitration and Conciliation Act
+
+3. **Conciliation:**
+   - Settlement through mutual agreement
+   - Conciliator assists parties
+   - Legally binding settlement
+   - Available for family and commercial matters
+
+4. **Lok Adalat (People's Court):**
+   - Compoundable criminal cases
+   - Civil matters up to specific monetary limits
+   - Pre-litigation and pending litigation cases
+   - Free of cost proceedings
+
+**How to Access ADR Services:**
+1. **Court-Connected Mediation:**
+   - File application in pending case
+   - Court refers matter to mediation center
+   - Trained mediators appointed
+   - Sessions scheduled within 60 days
+
+2. **Private Mediation:**
+   - Approach mediation centers directly
+   - Commercial mediation institutions
+   - Professional mediator panels
+   - Flexible scheduling and procedures
+
+**Lok Adalat Schedule:**
+- **National Lok Adalat:** Second Saturday of every month
+- **Special Lok Adalats:** For specific categories of cases
+- **Mega Lok Adalats:** Quarterly events for disposal of large number of cases
+- **Permanent Lok Adalat:** For public utility services
+
+**Benefits of ADR:**
+- Faster resolution (30-90 days vs. years)
+- Cost-effective (minimal fees)
+- Confidential proceedings
+- Preserve relationships
+- Flexible solutions
+- Enforceable settlements
+
+**Eligible Cases for Lok Adalat:**
+- Traffic challan cases
+- Electricity/water bill disputes
+- Bank recovery cases (up to ₹20 lakh)
+- MACT cases
+- Labor disputes
+- Family disputes (maintenance, custody)
+
+**Documentation Required:**
+- Case details and documents
+- Identity proof of parties
+- Authorization for representation
+- Settlement terms (if pre-decided)
+
+**Success Rate:**
+- Mediation: 70-80% success rate
+- Lok Adalat: 85% success rate
+- Average settlement time: 45 days
+- Cost savings: 60-80% compared to litigation
+
+**Contact Information:**
+- Mediation Centers: Available in all District Courts
+- Lok Adalat Helpline: Contact local DLSA
+- Online platforms: Check state court websites
+- Mobile apps: Some states have dedicated ADR apps`,
+    keywords: ["mediation", "arbitration", "lok adalat", "adr", "settlement", "conciliation", "dispute resolution", "people's court"]
+  },
+  {
+    query: "Bail procedures and surety requirements",
+    category: "bail-procedures",
+    response: `Bail Procedures and Surety Requirements:
+
+**Types of Bail:**
+1. **Regular Bail:**
+   - Applied before arrest or after charge sheet filed
+   - Filed in Sessions Court or High Court
+   - Detailed application with grounds required
+
+2. **Anticipatory Bail:**
+   - Applied before arrest
+   - Protection from arrest in non-bailable offenses
+   - Filed in Sessions Court or High Court
+   - Valid for specific period
+
+3. **Interim Bail:**
+   - Temporary bail for short duration
+   - Medical emergencies, family functions
+   - Pending regular bail application
+   - Specific conditions attached
+
+**Bail Application Process:**
+1. **Filing Application:**
+   - Submit in appropriate court
+   - Include case details and grounds
+   - Attach supporting documents
+   - Pay prescribed court fees
+
+2. **Required Documents:**
+   - FIR copy and case details
+   - Personal bond and surety documents
+   - Address proof of accused and surety
+   - Income/property documents of surety
+   - Character certificate (if required)
+
+**Surety Requirements:**
+- **Personal Surety:** Relatives or friends
+- **Property Surety:** Immovable property worth bail amount
+- **Bank Guarantee:** In lieu of personal surety
+- **Cash Deposit:** Rare cases, court discretion
+
+**Surety Qualifications:**
+- Permanent resident of court jurisdiction
+- Property/income sufficient to cover bail amount
+- No pending criminal cases
+- Good character and reputation
+- Ready to accept liability
+
+**Bail Conditions (Common):**
+- Regular appearance in court
+- Surrender passport (if applicable)
+- Not leave country without permission
+- Not intimidate witnesses
+- Report to police station (if ordered)
+- Maintain peace and good behavior
+
+**Factors Considered for Bail:**
+- Nature and gravity of offense
+- Character and background of accused
+- Possibility of fleeing justice
+- Likelihood of tampering with evidence
+- Previous criminal record
+- Health condition of accused
+
+**Non-Bailable Offenses:**
+- Murder, rape, kidnapping
+- Economic offenses above specific limits
+- NDPS Act violations
+- Terrorism-related charges
+- Dowry death cases
+
+**Bail Amount Guidelines:**
+- Economic condition of accused
+- Nature of offense
+- Previous convictions
+- Flight risk assessment
+- Generally reasonable and not excessive
+
+**Rejection Grounds:**
+- Serious nature of offense
+- Strong evidence against accused
+- Risk of absconding
+- Witness intimidation possibility
+- Previous bail violations
+
+**Appeal Process:**
+- Bail rejection can be appealed
+- Higher court jurisdiction
+- Fresh grounds can be presented
+- Legal representation recommended
+
+**Timeline:**
+- Regular hearing within 60 days (usual)
+- Anticipatory bail: Urgent hearing possible
+- Interim relief: Same day in emergencies
+- Appeal: 30-90 days depending on court
+
+**Legal Aid:**
+- Free legal aid available for eligible persons
+- NALSA empaneled lawyers
+- Court duty lawyers for immediate assistance`,
+    keywords: ["bail", "surety", "anticipatory bail", "non-bailable", "personal bond", "bail application", "court", "arrest"]
+  },
+  {
+    query: "Pension and retirement benefits for judicial officers",
+    category: "judicial-pension",
+    response: `Pension and Retirement Benefits for Judicial Officers:
+
+**Retirement Age:**
+- **Supreme Court Judges:** 65 years
+- **High Court Judges:** 62 years
+- **District Judges:** 60 years (some states 62 years)
+- **Subordinate Judicial Officers:** 60 years
+
+**Pension Benefits:**
+1. **Supreme Court Judges:**
+   - Monthly pension: ₹2,50,000
+   - Medical facilities for life
+   - Secretarial assistance allowance
+   - Rent-free accommodation or HRA
+
+2. **High Court Judges:**
+   - Monthly pension: ₹2,25,000
+   - Medical benefits for self and spouse
+   - Office assistance allowance
+   - Accommodation/HRA benefits
+
+3. **District and Subordinate Judges:**
+   - State government pension rules applicable
+   - Usually 50% of last drawn basic pay
+   - Medical benefits as per state rules
+   - Gratuity and leave encashment
+
+**Family Pension:**
+- **Widow/Widower:** 50% of pension amount
+- **Children:** Continue till marriage/employment
+- **Dependent Parents:** In absence of spouse/children
+- **Special Cases:** 100% pension for first 10 years in some cases
+
+**Medical Benefits:**
+- **Serving Judges:** Full medical coverage
+- **Retired Judges:** Continuation of medical benefits
+- **Family Coverage:** Spouse and dependent children
+- **Specialized Treatment:** Reimbursement for serious ailments
+- **Cashless Treatment:** Empaneled hospitals
+
+**Additional Benefits:**
+1. **Library Allowance:** For maintaining personal law library
+2. **Telephone Bills:** Reimbursement up to prescribed limits
+3. **Conveyance:** Vehicle maintenance allowance
+4. **Housing:** Rent-free accommodation or HRA
+5. **Electricity:** Free electricity up to prescribed units
+
+**Gratuity Calculation:**
+- **Central Government:** 16.5 times last drawn basic pay
+- **State Government:** As per respective state rules
+- **Maximum Limit:** ₹20 lakh (Central), varies for states
+- **Payment:** Within 30 days of retirement
+
+**Leave Benefits:**
+- **Earned Leave:** Encashment up to 300 days
+- **Half Pay Leave:** Encashment if not availed
+- **Commuted Leave:** Advance against future salary
+- **Special Leave:** Medical/study purposes
+
+**Provident Fund:**
+- **Contribution:** 12% of basic pay (employee + employer)
+- **Interest Rate:** Government prescribed rate
+- **Withdrawal:** Full amount at retirement
+- **Loan Facility:** Available during service
+
+**Insurance Coverage:**
+- **Group Insurance:** Central Group Insurance Scheme
+- **Life Insurance:** LIC coverage
+- **Health Insurance:** CGHS/State health schemes
+- **Accident Insurance:** Personal accident coverage
+
+**Pension Revision:**
+- **Pay Commission:** Recommendations implemented
+- **Automatic Revision:** Based on DA increase
+- **Fitment Formula:** Applied for benefit calculation
+- **Arrears Payment:** Paid with revised pension
+
+**Application Process:**
+1. **Pre-Retirement:** 6 months before retirement
+2. **Required Documents:** Service records, medical certificate
+3. **Processing Time:** 3-6 months
+4. **First Payment:** Usually within 3 months of retirement
+5. **Pension Payment Order:** Issued by concerned authority
+
+**Grievance Redressal:**
+- **Administrative Complaint:** To Registrar General
+- **CAT Jurisdiction:** For service matters
+- **High Court:** Writ jurisdiction for constitutional issues
+- **Ombudsman:** In some states for pension-related issues
+
+**Recent Reforms:**
+- **Digital Pension:** Online pension disbursal
+- **Pension Portal:** Track application status
+- **Direct Transfer:** Bank account credit
+- **Jeevan Pramaan:** Digital life certificate`,
+    keywords: ["judicial pension", "retirement benefits", "judges pension", "family pension", "medical benefits", "gratuity", "judicial officers"]
+  },
+  {
+    query: "Court fee calculation and exemption procedures",
+    category: "court-fees",
+    response: `Court Fee Calculation and Exemption Procedures:
+
+**Types of Court Fees:**
+1. **Fixed Fee:** Predetermined amount for specific case types
+2. **Ad Valorem Fee:** Percentage of claim amount/property value
+3. **Process Fee:** For serving summons and notices
+4. **Copying Fee:** For certified copies of documents
+5. **Miscellaneous Fee:** Applications, petitions, appeals
+
+**Fixed Fee Cases:**
+- **Divorce Petitions:** ₹15-₹50 (varies by state)
+- **Criminal Complaints:** ₹5-₹25
+- **Maintenance Applications:** ₹10-₹30
+- **Probate Applications:** ₹50-₹200
+- **Adoption Petitions:** ₹25-₹100
+
+**Ad Valorem Fee Calculation:**
+- **Property Disputes:** 3-7% of property value
+- **Money Recovery:** 1-5% of claim amount
+- **Commercial Disputes:** 2-6% of transaction value
+- **Partnership Dissolution:** 3-8% of partnership value
+
+**Fee Structure by Case Value:**
+- **Up to ₹1,000:** Fixed fee ₹10-₹25
+- **₹1,001 to ₹5,000:** 2-3% of value
+- **₹5,001 to ₹20,000:** 4-5% of value
+- **Above ₹20,000:** 6-7% of value + additional slab rates
+
+**Appeal Fee:**
+- **District Court Appeals:** 2-3 times trial court fee
+- **High Court Appeals:** 3-5 times lower court fee
+- **Supreme Court Appeals:** ₹500-₹25,000 depending on case type
+- **Revision Petitions:** 1.5-2 times original fee
+
+**Exemption Categories:**
+1. **Total Exemption:**
+   - Pauper suits (indigent persons)
+   - Government cases as plaintiff
+   - Certain constitutional matters
+   - Habeas corpus petitions
+
+2. **Partial Exemption:**
+   - Senior citizens (above 65 years)
+   - Differently-abled persons
+   - Widow/single women in certain cases
+   - SC/ST community members (state-specific)
+
+**Pauper Suit Procedure:**
+1. **Application Filing:**
+   - File application with main case
+   - Attach income certificate
+   - Affidavit stating financial condition
+   - Supporting documents
+
+2. **Income Criteria:**
+   - **Rural Areas:** Annual income below ₹1,00,000
+   - **Urban Areas:** Annual income below ₹2,00,000
+   - **Family Income:** Combined household income considered
+   - **Assets:** Immovable property value considered
+
+3. **Required Documents:**
+   - Income certificate from Tehsildar/SDM
+   - BPL card or ration card
+   - Affidavit of financial condition
+   - Bank statements (last 6 months)
+   - Property documents (if any)
+
+**Court Fee Payment Methods:**
+- **Court Fee Stamps:** Physical stamps from authorized vendors
+- **Online Payment:** E-filing portals accept digital payments
+- **Demand Draft:** Drawn in favor of court registrar
+- **Cash Payment:** At court treasury (limited cases)
+- **NEFT/RTGS:** Direct bank transfer
+
+**Refund Procedures:**
+- **Successful Cases:** Partial refund in some jurisdictions
+- **Dismissed Cases:** No refund generally
+- **Withdrawn Cases:** Partial refund possible
+- **Excess Payment:** Full refund of excess amount
+- **Processing Time:** 30-90 days for refund
+
+**Fee Revision:**
+- **Annual Revision:** Based on inflation
+- **State Amendments:** Different rates across states
+- **Supreme Court Guidelines:** Uniform principles
+- **Notification:** Published in official gazette
+
+**Special Cases:**
+1. **Constitutional Cases:** Reduced or no fee
+2. **PIL (Public Interest Litigation):** Nominal fee
+3. **Service Matters:** Fixed fee structure
+4. **Environmental Cases:** Reduced fee
+5. **Consumer Complaints:** Nominal fee
+
+**Fee Calculation Tools:**
+- **Court Websites:** Online fee calculators
+- **Mobile Apps:** Some states provide calculation tools
+- **Advocate Assistance:** Professional fee calculation
+- **Court Help Desk:** Free guidance available
+
+**Non-Payment Consequences:**
+- **Case Dismissal:** For non-payment within time limit
+- **Additional Penalty:** Late payment charges
+- **Stay on Proceedings:** Court may stay hearing
+- **Rejection:** Applications may be rejected
+
+**Recent Reforms:**
+- **Digital Fee Payment:** QR code-based payments
+- **Fee Transparency:** Clear fee structure display
+- **Reduced Rates:** For certain categories
+- **Online Calculation:** Automated fee computation`,
+    keywords: ["court fees", "court fee calculation", "pauper suit", "fee exemption", "ad valorem", "fixed fee", "fee refund", "fee payment"]
   }
 ];
