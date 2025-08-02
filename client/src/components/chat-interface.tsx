@@ -152,7 +152,7 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
                 key={index}
                 variant="outline"
                 size="sm"
-                className="px-3 py-1 h-auto text-xs bg-slate-100 border-slate-200 hover:bg-slate-200 hover:border-primary-blue hover:text-primary-blue transition-colors"
+                className="px-3 py-1 h-auto text-xs bg-slate-100 border-slate-200 hover:bg-slate-200 hover:border-primary-blue hover:text-primary-blue transition-colors btn-no-yellow"
                 onClick={() => handleSuggestionClick(suggestion)}
                 disabled={isLoading}
               >
@@ -173,7 +173,7 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               disabled={isLoading}
-              className="pr-12 focus:ring-2 focus:ring-primary-blue focus:border-transparent"
+              className="pr-12 focus:ring-2 focus:ring-primary-blue focus:border-transparent bg-white border-gray-300"
             />
             <Button
               type="button"

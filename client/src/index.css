@@ -119,4 +119,25 @@
   .text-purple-accent {
     color: hsl(300, 100%, 25%);
   }
+
+  /* Force override any yellow/orange defaults */
+  .btn-no-yellow, 
+  .btn-no-yellow:hover,
+  .btn-no-yellow:focus,
+  button[class*="yellow"],
+  button[class*="orange"],
+  .bg-yellow-400,
+  .bg-yellow-300,
+  .bg-orange-400 {
+    background-color: hsl(226, 232, 240) !important; /* slate-100 */
+    border-color: hsl(200, 50%, 40%) !important; /* primary-blue */
+    color: hsl(30, 41, 59) !important; /* slate-800 */
+  }
+
+  /* Override any yellow ring focus states */
+  input:focus,
+  button:focus,
+  .focus\:ring-yellow-500:focus {
+    --tw-ring-color: hsl(200, 50%, 40%) !important; /* primary-blue */
+  }
 }
