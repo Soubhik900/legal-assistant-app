@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { processJudicialQuery, categorizeQuery } from "./services/openai";
+import { processJudicialQuery, categorizeQuery } from "./services/gemini";
 import { judicialKnowledgeBase } from "./data/judicial-info";
 import { insertConversationSchema, insertMessageSchema } from "@shared/schema";
 import { z } from "zod";
