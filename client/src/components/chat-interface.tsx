@@ -40,9 +40,12 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
   };
 
   const suggestedQuestions = [
-    "Judge vacancy in Delhi High Court",
-    "eFiling fee structure",
-    "Traffic e-challan payment",
+    "Check case status by CNR number",
+    "Legal aid eligibility criteria", 
+    "How to file FIR online",
+    "Court timings and procedures",
+    "Voice search in Hindi",
+    "Consumer complaint process",
   ];
 
   return (
@@ -100,14 +103,14 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
                 </div>
                 <div className="bg-white rounded-lg rounded-tl-none p-4 shadow-sm max-w-md">
                   <p className="text-navy font-medium mb-2">Welcome to DoJ Legal Assistant!</p>
-                  <p className="text-gray-700 text-sm">I can help you with information about:</p>
+                  <p className="text-gray-700 text-sm">I can help you with comprehensive legal services:</p>
                   <ul className="text-sm text-gray-600 mt-2 space-y-1">
-                    <li>• Judge appointments and court vacancies</li>
-                    <li>• Case status and pendency data</li>
-                    <li>• eFiling and ePay procedures</li>
-                    <li>• Traffic violation fines</li>
-                    <li>• Court live streaming services</li>
-                    <li>• Tele Law and legal aid services</li>
+                    <li>• Case Status Tracking (CNR/party name via eCourts)</li>
+                    <li>• Legal Aid Information (eligibility & application)</li>
+                    <li>• Court Services (timings, procedures, locations)</li>
+                    <li>• Basic Legal Guidance (FIR, consumer complaints)</li>
+                    <li>• Multilingual Support (22 Indian languages)</li>
+                    <li>• Voice Input & Natural Language Search</li>
                   </ul>
                   <p className="text-sm text-gray-600 mt-3">How can I assist you today?</p>
                 </div>

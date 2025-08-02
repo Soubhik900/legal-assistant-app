@@ -74,8 +74,8 @@ export default function ChatbotPage() {
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-navy mb-2">DoJ Legal Assistant</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Get instant answers to your judicial queries through our AI-powered chatbot. 
-            Access information about court procedures, case status, eFiling, and more.
+            Advanced AI-powered legal assistant with case status tracking, legal aid information, 
+            multilingual support, voice search, and comprehensive guidance for all judicial services.
           </p>
         </div>
 

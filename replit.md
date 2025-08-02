@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack web application serving as an AI-powered legal assistant for the Department of Justice, Government of India. The application provides intelligent responses to queries about judicial services including case status checking, eFiling procedures, judge appointments, traffic violations, court streaming, and legal aid services. It features a modern, government-themed UI with a conversational chat interface backed by OpenAI's GPT-4 model.
+This is a comprehensive full-stack web application serving as an advanced AI-powered legal assistant for the Department of Justice, Government of India. The application provides intelligent responses covering all major judicial services with enhanced capabilities including case status tracking via CNR/party name, legal aid information, court services info, basic legal guidance, multilingual support (22 Indian languages), and voice input/natural language search. It features a modern, government-themed UI with professional Indian flag colors and is powered by Google's free Gemini AI service.
 
 ## User Preferences
 
@@ -38,17 +38,25 @@ Preferred communication style: Simple, everyday language.
 - **Future Consideration**: Designed to accommodate user authentication when required
 
 ### AI Integration
-- **Provider**: OpenAI GPT-4o model for natural language processing
-- **Architecture**: Service layer abstraction for AI interactions
-- **Knowledge Base**: Pre-populated judicial information database for context-aware responses
-- **Query Processing**: Intelligent categorization and context-aware response generation
-- **Response Structure**: JSON-formatted responses with categories, confidence scores, and suggested actions
+- **Provider**: Google Gemini AI (free tier) for natural language processing and multimodal capabilities
+- **Model**: Gemini-2.5-flash for fast, intelligent responses without cost limitations
+- **Architecture**: Service layer abstraction for AI interactions with comprehensive judicial knowledge
+- **Enhanced Features**: 
+  - Case status tracking simulation (CNR/party name lookup)
+  - Legal aid eligibility and application guidance
+  - Court services information (timings, procedures, locations)
+  - Basic legal guidance (FIR filing, consumer complaints, property registration)
+  - Multilingual support (22 scheduled Indian languages)
+  - Voice input and natural language search capabilities
+- **Knowledge Base**: Comprehensive judicial information database covering all DoJ services
+- **Query Processing**: Advanced categorization with expanded service coverage
+- **Response Structure**: JSON-formatted responses with detailed information, categories, confidence scores, and actionable suggestions
 
 ## External Dependencies
 
 ### Core Services
-- **OpenAI API**: GPT-4o model for intelligent legal query processing and response generation
-- **Neon Database**: Serverless PostgreSQL hosting for production deployment
+- **Google Gemini API**: Free Gemini-2.5-flash model for intelligent legal query processing, multimodal capabilities, and comprehensive response generation
+- **Neon Database**: Serverless PostgreSQL hosting for production deployment (with in-memory fallback for development)
 
 ### Development Tools
 - **Drizzle Kit**: Database schema management and migrations

@@ -14,12 +14,12 @@ interface QuickAccessPanelProps {
 
 export default function QuickAccessPanel({ onQuickQuery, statistics }: QuickAccessPanelProps) {
   const quickAccessItems = [
-    { icon: Gavel, text: "Judge Appointments", query: "judge appointments" },
-    { icon: Search, text: "Case Status", query: "case status" },
-    { icon: FileUp, text: "eFiling Procedures", query: "efiling procedures" },
-    { icon: Car, text: "Traffic Violations", query: "traffic violations" },
-    { icon: Video, text: "Live Court Streaming", query: "court streaming" },
-    { icon: Phone, text: "Tele Law Services", query: "tele law services" },
+    { icon: Search, text: "Case Status Tracking", query: "case status tracking CNR number" },
+    { icon: Gavel, text: "Legal Aid Information", query: "legal aid eligibility and application" },
+    { icon: FileUp, text: "Court Services Info", query: "court timings procedures locations" },
+    { icon: Phone, text: "Basic Legal Guidance", query: "FIR filing consumer complaints legal guidance" },
+    { icon: Video, text: "Multilingual Support", query: "multilingual support regional languages" },
+    { icon: Car, text: "Voice Search Features", query: "voice input natural language search" },
   ];
 
   return (
