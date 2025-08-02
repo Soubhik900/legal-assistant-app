@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 248 249 250; /* light-gray */
+    --foreground: 0 0 128; /* navy */
+    --card: 255 255 255;
+    --card-foreground: 0 0 128;
+    --popover: 255 255 255;
+    --popover-foreground: 0 0 128;
+    --primary: 30 100% 60%; /* saffron */
+    --primary-foreground: 255 255 255;
+    --secondary: 140 60% 25%; /* indian-green */
+    --secondary-foreground: 255 255 255;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 300 100% 25%; /* purple-accent */
+    --accent-foreground: 255 255 255;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 255 255 255;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 30 100% 60%;
+    --chart-1: 30 100% 60%;
+    --chart-2: 140 60% 25%;
+    --chart-3: 0 0 128;
+    --chart-4: 300 100% 25%;
+    --chart-5: 0 0% 60%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .saffron {
+    color: hsl(30, 100%, 60%);
+  }
+
+  .indian-green {
+    color: hsl(140, 60%, 25%);
+  }
+
+  .navy {
+    color: hsl(0, 0%, 50%);
+  }
+
+  .purple-accent {
+    color: hsl(300, 100%, 25%);
+  }
+
+  .bg-saffron {
+    background-color: hsl(30, 100%, 60%);
+  }
+
+  .bg-indian-green {
+    background-color: hsl(140, 60%, 25%);
+  }
+
+  .bg-navy {
+    background-color: hsl(0, 0%, 50%);
+  }
+
+  .bg-purple-accent {
+    background-color: hsl(300, 100%, 25%);
+  }
+
+  .border-saffron {
+    border-color: hsl(30, 100%, 60%);
+  }
+
+  .border-indian-green {
+    border-color: hsl(140, 60%, 25%);
+  }
+
+  .border-navy {
+    border-color: hsl(0, 0%, 50%);
+  }
+
+  .border-purple-accent {
+    border-color: hsl(300, 100%, 25%);
+  }
+
+  .hover\:bg-saffron:hover {
+    background-color: hsl(30, 100%, 60%);
+  }
+
+  .hover\:text-saffron:hover {
+    color: hsl(30, 100%, 60%);
+  }
+
+  .hover\:border-saffron:hover {
+    border-color: hsl(30, 100%, 60%);
+  }
+
+  .text-saffron {
+    color: hsl(30, 100%, 60%);
+  }
+
+  .text-indian-green {
+    color: hsl(140, 60%, 25%);
+  }
+
+  .text-navy {
+    color: hsl(0, 0%, 50%);
+  }
+
+  .text-purple-accent {
+    color: hsl(300, 100%, 25%);
+  }
+}
