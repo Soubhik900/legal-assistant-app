@@ -13,7 +13,7 @@ export default function ChatMessage({ message }: ChatMessageProps) {
   return (
     <div className={`flex items-start space-x-3 ${isUser ? 'justify-end' : ''}`}>
       {!isUser && (
-        <div className="w-8 h-8 bg-saffron rounded-full flex items-center justify-center flex-shrink-0">
+        <div className="w-8 h-8 bg-primary-blue rounded-full flex items-center justify-center flex-shrink-0">
           <Bot className="text-white text-sm" />
         </div>
       )}

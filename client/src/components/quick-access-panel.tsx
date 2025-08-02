@@ -35,10 +35,10 @@ export default function QuickAccessPanel({ onQuickQuery, statistics }: QuickAcce
               <Button
                 key={index}
                 variant="outline"
-                className="w-full text-left p-3 h-auto justify-start border-gray-200 hover:border-saffron hover:bg-orange-50 transition-colors"
+                className="w-full text-left p-3 h-auto justify-start border-gray-200 hover:border-primary-blue hover:bg-blue-50 transition-colors"
                 onClick={() => onQuickQuery(item.query)}
               >
-                <IconComponent className="text-saffron mr-2 h-4 w-4" />
+                <IconComponent className="text-primary-blue mr-2 h-4 w-4" />
                 <span className="text-sm">{item.text}</span>
               </Button>
             );

@@ -51,7 +51,7 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
   return (
     <Card className="h-[600px] flex flex-col bg-white/90 backdrop-blur-sm border-gray-200/50 shadow-xl">
       {/* Chat Header */}
-      <div className="bg-gradient-to-r from-saffron to-orange-600 text-white p-4 rounded-t-lg">
+      <div className="bg-gradient-to-r from-navy to-slate-700 text-white p-4 rounded-t-lg">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
@@ -98,7 +98,7 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
             {/* Welcome Message */}
             {messages.length === 0 && (
               <div className="flex items-start space-x-3">
-                <div className="w-8 h-8 bg-saffron rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 bg-primary-blue rounded-full flex items-center justify-center flex-shrink-0">
                   <Bot className="text-white text-sm" />
                 </div>
                 <div className="bg-white rounded-lg rounded-tl-none p-4 shadow-sm max-w-md">
@@ -125,7 +125,7 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
             {/* Typing Indicator */}
             {isLoading && (
               <div className="flex items-start space-x-3">
-                <div className="w-8 h-8 bg-saffron rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 bg-primary-blue rounded-full flex items-center justify-center flex-shrink-0">
                   <Bot className="text-white text-sm" />
                 </div>
                 <div className="bg-white rounded-lg rounded-tl-none p-4 shadow-sm">
@@ -152,7 +152,7 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
                 key={index}
                 variant="outline"
                 size="sm"
-                className="px-3 py-1 h-auto text-xs border-gray-200 hover:border-saffron hover:text-saffron transition-colors"
+                className="px-3 py-1 h-auto text-xs border-gray-200 hover:border-primary-blue hover:text-primary-blue transition-colors"
                 onClick={() => handleSuggestionClick(suggestion)}
                 disabled={isLoading}
               >
@@ -173,13 +173,13 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               disabled={isLoading}
-              className="pr-12 focus:ring-2 focus:ring-saffron focus:border-transparent"
+              className="pr-12 focus:ring-2 focus:ring-primary-blue focus:border-transparent"
             />
             <Button
               type="button"
               variant="ghost"
               size="icon"
-              className="absolute right-2 top-1/2 transform -translate-y-1/2 h-8 w-8 text-gray-400 hover:text-saffron"
+              className="absolute right-2 top-1/2 transform -translate-y-1/2 h-8 w-8 text-gray-400 hover:text-primary-blue"
             >
               <Paperclip className="h-4 w-4" />
             </Button>
@@ -187,7 +187,7 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
           <Button
             type="submit"
             disabled={isLoading || !inputValue.trim()}
-            className="bg-saffron hover:bg-orange-600 text-white focus:ring-2 focus:ring-orange-300"
+            className="bg-primary-blue hover:bg-slate-600 text-white focus:ring-2 focus:ring-blue-300"
           >
             <Send className="h-4 w-4" />
           </Button>
@@ -199,11 +199,11 @@ export default function ChatInterface({ messages, onSendMessage, isLoading, mess
             Your conversations are secure and confidential
           </p>
           <div className="flex items-center space-x-2 text-xs text-gray-500">
-            <Button variant="ghost" size="sm" className="h-6 px-2 hover:text-saffron">
+            <Button variant="ghost" size="sm" className="h-6 px-2 hover:text-primary-blue">
               <Download className="mr-1 h-3 w-3" />
               Export
             </Button>
-            <Button variant="ghost" size="sm" className="h-6 px-2 hover:text-saffron">
+            <Button variant="ghost" size="sm" className="h-6 px-2 hover:text-primary-blue">
               <Trash2 className="mr-1 h-3 w-3" />
               Clear
             </Button>

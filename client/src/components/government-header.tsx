@@ -13,7 +13,7 @@ export default function GovernmentHeader() {
   ];
 
   return (
-    <header className="bg-white/95 backdrop-blur-sm shadow-md border-b-4 border-saffron">
+    <header className="bg-white/95 backdrop-blur-sm shadow-md border-b-4 border-primary-blue">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-4">
@@ -34,7 +34,7 @@ export default function GovernmentHeader() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-navy hover:text-saffron transition-colors"
+                  className="text-navy hover:text-primary-blue transition-colors"
                 >
                   {item.name}
                 </a>
@@ -63,7 +63,7 @@ export default function GovernmentHeader() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-navy hover:text-saffron transition-colors py-2"
+                  className="text-navy hover:text-primary-blue transition-colors py-2"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.name}
