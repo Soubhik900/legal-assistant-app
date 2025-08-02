@@ -35,7 +35,7 @@ export default function QuickAccessPanel({ onQuickQuery, statistics }: QuickAcce
               <Button
                 key={index}
                 variant="outline"
-                className="w-full text-left p-3 h-auto justify-start border-gray-200 hover:border-primary-blue hover:bg-blue-50 transition-colors"
+                className="w-full text-left p-3 h-auto justify-start bg-slate-100 border-slate-200 hover:bg-slate-200 hover:border-primary-blue transition-colors"
                 onClick={() => onQuickQuery(item.query)}
               >
                 <IconComponent className="text-primary-blue mr-2 h-4 w-4" />
