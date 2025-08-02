@@ -51,10 +51,10 @@ export default function ServiceCards() {
           return (
             <Card 
               key={index} 
-              className={`hover:shadow-xl transition-shadow border-t-4 ${service.borderColor}`}
+              className={`hover:shadow-xl transition-shadow border-t-4 ${service.borderColor} bg-white`}
             >
-              <CardContent className="p-6 text-center">
-                <div className={`w-16 h-16 ${service.bgColor} rounded-full flex items-center justify-center mx-auto mb-4`}>
+              <CardContent className="p-6 text-center bg-white">
+                <div className={`w-16 h-16 ${service.bgColor} rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-gray-200`}>
                   <IconComponent className={`${service.iconColor} h-8 w-8`} />
                 </div>
                 <h4 className="font-semibold text-navy mb-2 font-[Noto_Sans]">{service.title}</h4>
