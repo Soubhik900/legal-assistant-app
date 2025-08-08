@@ -1,6 +1,7 @@
 import { FileUp, Video, Search, Phone, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 
 export default function ServiceCards() {
   const services = [
@@ -12,6 +13,7 @@ export default function ServiceCards() {
       bgColor: "bg-blue-100",
       iconColor: "text-primary-blue",
       buttonColor: "text-primary-blue hover:text-blue-700",
+      link: "/efiling"
     },
     {
       icon: Video,
@@ -21,6 +23,7 @@ export default function ServiceCards() {
       bgColor: "bg-green-100",
       iconColor: "text-indian-green",
       buttonColor: "text-indian-green hover:text-green-700",
+      link: "/live-streaming"
     },
     {
       icon: Search,
@@ -30,6 +33,7 @@ export default function ServiceCards() {
       bgColor: "bg-blue-100",
       iconColor: "text-navy",
       buttonColor: "text-navy hover:text-blue-700",
+      link: "/case-status"
     },
     {
       icon: Phone,
@@ -39,6 +43,7 @@ export default function ServiceCards() {
       bgColor: "bg-slate-100",
       iconColor: "text-slate-600",
       buttonColor: "text-slate-600 hover:text-slate-700",
+      link: "/tele-law"
     },
   ];
 
@@ -59,13 +64,15 @@ export default function ServiceCards() {
                 </div>
                 <h4 className="font-semibold text-navy mb-2 font-[Noto_Sans]">{service.title}</h4>
                 <p className="text-sm text-gray-600 mb-4">{service.description}</p>
-                <Button 
-                  variant="ghost" 
-                  className={`${service.buttonColor} text-sm font-medium transition-colors h-auto p-0`}
-                >
-                  Learn More 
-                  <ArrowRight className="ml-1 h-4 w-4" />
-                </Button>
+                <Link href={service.link}>
+                  <Button 
+                    variant="ghost" 
+                    className={`${service.buttonColor} text-sm font-medium transition-colors h-auto p-0`}
+                  >
+                    Learn More 
+                    <ArrowRight className="ml-1 h-4 w-4" />
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           );
